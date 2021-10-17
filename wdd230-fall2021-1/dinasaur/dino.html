@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple DOM example</title>
+  </head>
+  <body>
+      <section>
+        <img src="imagesdino/dinosaur.png" alt="A red Tyrannosaurus Rex: A two legged dinosaur standing upright like a human, with small arms, and a large head with lots of sharp teeth.">
+        <p>Here we will add a link to the <a href="https://www.mozilla.org/">Mozilla homepage</a></p>
+      </section>
+      <script>
+        //To manipulate an element inside the DOM, you first need to select it and store a reference to it inside a variable. Inside your script element, add the following line //
+        const link = document.querySelector('a');
+
+        //let's change the text inside the link by updating the value of the Node.textContent property //
+        link.textContent = 'Mozilla Developer Network';
+
+        //  change the URL the link is pointing to, so that it doesn't go to the wrong place when it is clicked on //
+        link.href = 'https://developer.mozilla.org';
+
+        // select an element and store a reference to it in a variable. The querySelector() call will match the first <a> element that appears in the document. If you wanted to match and do things to multiple elements, you could use Document.querySelectorAll(), which matches every element in the document that matches the selector, and stores references to them in an array-like object called a NodeList. //
+          // grabbing a reference to our <section> element — //
+        const sect = document.querySelector('section');
+
+        // create a new paragraph using Document.createElement() and give it some text content in the same way as before://
+        const para = document.createElement('p');
+
+        // now append the new paragraph at the end of the section using Node.appendChild() //
+        para.textContent = 'We hope you enjoyed the ride.';
+
+        // Finally for this part, let's add a text node to the paragraph the link sits inside, to round off the sentence nicely. First we will create the text node using Document.createTextNode() //
+        const text = document.createTextNode(' — the premier source for web development knowledge.');
+
+        // Now we'll grab a reference to the paragraph the link is inside, and append the text node to it //
+        const linkPara = document.querySelector('p');
+        linkPara.appendChild(text);
+
+        // There may be times when you want to move nodes, or delete them from the DOM altogether. This is perfectly possible. linkPara is a reference to the one and only copy of that paragraph. If you wanted to make a copy and add that as well, you'd need to use Node.cloneNode() instead.
+
+       // If we wanted to move the paragraph with the link inside it to the bottom of the section //
+       sect.appendChild(linkPara);
+
+       // Removing a node is pretty simple as well, at least when you have a reference to the node to be removed and its parent. In our current case, we just use Node.removeChild(), like this //
+       sect.removeChild(linkPara);
+
+       // When you want to remove a node based only on a reference to itself, which is fairly common, you can use Element.remove():   not supported in older browsers //
+       linkPara.remove();
+
+      </script>
+  </body>
+</html>
