@@ -1,0 +1,45 @@
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
+  header img {
+    width: 100%;
+  }
+
+  header,
+  footer {
+    max-width: 760px;
+    margin: 0 auto;
+    border: 1px double;
+  }
+
+  body {
+    max-width: 760px;
+    margin: 0 auto;
+    border: 1px double;
+  }
+
+  nav {
+    background: #3c362a;
+  }
+
+  nav button {
+    display: none;
+  }
+
+  nav ul.hide {
+    display: block;
+  }
+
+  nav ul {
+    margin-left: 2%;
+  }
+
+  nav ul li {
+    float: left;
+  }
+
+  nav ul li a {
+    border: none;
+    border-right: 1px solid rgba(01, 01, 01, 0.03);
+    padding: 0.6rem 1.7rem;
+  }
+} /*end large */

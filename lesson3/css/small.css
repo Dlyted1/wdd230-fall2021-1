@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  background-color: #b8c4bb;
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 100px;
+  max-width: 560px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+#myHeader {
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-size: 25px;
+}
+
+#myPara {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+header,
+footer {
+  background-color: #c9d6ea;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+header,
+nav,
+main,
+footer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-size: 2rem;
+  color: #3c362a;
+}
+
+h2 {
+  color: #3c362a;
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+h3,
+h4 {
+  color: #3c362a;
+  font-family: "Roboto", sans-serif;
+}
+h5 {
+  color: rgb(214, 207, 197);
+  font-family: "Roboto", sans-serif;
+}
+
+nav ul li {
+  flex: 1 1 100%;
+}
+
+nav {
+  background-color: #3c362a;
+  text-align: center;
+}
+nav a {
+  color: #d9dbf1;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+nav ul li a {
+  display: block;
+  text-align: center;
+  padding: 0.75rem;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+nav a:hover {
+  background-color: #bbb;
+  color: #663f46;
+}
+
+.active {
+  color: #e8f7ee;
+}
+
+footer {
+  flex: 0 1 100%;
+  background-color: #c9d6ea;
+}
