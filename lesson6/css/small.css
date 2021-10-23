@@ -141,8 +141,8 @@ img {            /* use for very large image scale to correct size */
 
   picture.hero-ph {
     display: block;
-    width: 96%;
-    Margin: 0 2%;
+    width: 100%;
+    Margin: auto;
   }
      
   /*the child of .herodiv*/
