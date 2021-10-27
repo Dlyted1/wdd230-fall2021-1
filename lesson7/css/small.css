@@ -10,6 +10,7 @@
 picture img {
   filter: blur(0em);
   transition: filter 0.5s;
+  margin: 20px 0;
 }
 
 h1 {
