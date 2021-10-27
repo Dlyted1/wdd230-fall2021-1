@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap");
+
+h1 {
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+
 img{
 	width: 300px; height: 400px;
 	display: inline-block;
