@@ -9,7 +9,7 @@
 
 picture img {
   filter: blur(0em);
-  transition: filter 0.5s;
+  transition: filter 2.5s;
   margin: 20px 0;
 }
 
