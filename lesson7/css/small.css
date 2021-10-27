@@ -4,10 +4,11 @@
   filter: blur(0.2em);
   min-width: 50px;
   min-height: 50px;
-  border: 2px rgb(26, 24, 24);
 }
 
 picture img {
+  border: 1px solid #ccc;
+  box-shadow: 5px 5px 5px #999;
   filter: blur(0em);
   transition: filter 2.5s;
   margin: 20px 0;
