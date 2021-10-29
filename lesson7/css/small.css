@@ -126,18 +126,12 @@ main {
   margin-right: 10px;
 }
 
-img {            /* use for very large image scale to correct size */
-    max-width: 100%;
-    max-height: 100%;
-    display: flex; /* use display block to remove extra space below image */
-}
+/* img {            /* use for very large image scale to correct size */
+/*    max-width: 100%;
+/*   max-height: 100%; }
+/*    display: flex; /* use display block to remove extra space below image */
 
-  /*the  parent container*/
-  .herodiv {
-    margin: 10px auto;
-    position: relative;
-    
-  }
+
 
   picture.hero-ph {
     display: block;
@@ -284,6 +278,57 @@ footer {
   align-items: center;
   justify-content: center;
 }
+
+.container {
+  margin: 1rem auto; 
+  display:grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  max-width: 800px;}
+
+img { 
+  width: 300px; 
+  height: auto; 
+  margin: 0;
+}
+figcaption {
+  font-size: smaller;
+  text-align: center;
+}
+/* hover effect */
+.sun:hover {
+  box-shadow: 0 0 80px #333;
+}
+.wind:hover {
+  box-shadow: 0 0 80px #333;
+}
+.rain:hover {
+  box-shadow: 0 0 80px #333;
+}
+.rainbow:hover {
+  box-shadow: 0 0 80px #333;
+}
+.thunder:hover {
+  box-shadow: 0 0 80px #333;
+}
+.hail:hover {
+  box-shadow: 0 0 80px #333;
+}
+.snow:hover {
+  box-shadow: 0 0 80px #333;
+}
+.cold:hover {
+  box-shadow: 0 0 80px #333;
+}
+.icy:hover {
+  box-shadow: 0 0 80px #333;
+}
+
+
+
+
+
+
+
 
 @media only screen and (min-width: 220px) {
     header img {
