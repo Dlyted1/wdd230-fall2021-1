@@ -306,40 +306,6 @@ figure img {
   
 }
 
-figcaption {
-  font-size: small;
-  text-align: center;
-  padding-top: 20px;;
-}
-/* hover effect */
-.sun:hover {
-  box-shadow: 0 0 80px #333;
-}
-.wind:hover {
-  box-shadow: 0 0 80px #333;
-}
-.rain:hover {
-  box-shadow: 0 0 80px #333;
-}
-.rainbow:hover {
-  box-shadow: 0 0 80px #333;
-}
-.thunder:hover {
-  box-shadow: 0 0 80px #333;
-}
-.hail:hover {
-  box-shadow: 0 0 80px #333;
-}
-.snow:hover {
-  box-shadow: 0 0 80px #333;
-}
-.cold:hover {
-  box-shadow: 0 0 80px #333;
-}
-.icy:hover {
-  box-shadow: 0 0 80px #333;
-}
-
 
 
 

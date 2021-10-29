@@ -1,5 +1,5 @@
 /* 64em is also 1028px when basefont is 16px */
-@media only screen and (min-width: 82em) {
+@media only screen and (min-width: 800px, max-width: 1200px) {
   header img {
     width: 100%;
   }
@@ -46,5 +46,40 @@
   main {
     max-width: 820px;
     margin: 0 auto;
+  }
+
+  figcaption {
+    font-size: small;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  /* hover effect */
+  .sun:hover {
+    box-shadow: 0 0 80px #333;
+  }
+  .wind:hover {
+    box-shadow: 0 0 80px #333;
+  }
+  .rain:hover {
+    box-shadow: 0 0 80px #333;
+  }
+  .rainbow:hover {
+    box-shadow: 0 0 80px #333;
+  }
+  .thunder:hover {
+    box-shadow: 0 0 80px #333;
+  }
+  .hail:hover {
+    box-shadow: 0 0 80px #333;
+  }
+  .snow:hover {
+    box-shadow: 0 0 80px #333;
+  }
+  .cold:hover {
+    box-shadow: 0 0 80px #333;
+  }
+  .icy:hover {
+    box-shadow: 0 0 80px #333;
   }
 } /*end large */
