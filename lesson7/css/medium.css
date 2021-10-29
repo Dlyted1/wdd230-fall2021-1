@@ -1,17 +1,17 @@
-@media only screen and (min-width: 32em) {
-    header img {
-      width: 100%;
-    }
+@media only screen and (min-width: 62em) {
+  header img {
+    width: 100%;
+  }
 
-     /*the  parent container*/
-   .herodiv {
+  /*the  parent container*/
+  .herodiv {
     margin: 10px auto;
     position: relative;
-    font-weight: 500; 
-   }
-   
- /*the child of .herodiv*/
- .weathersummary {
+    font-weight: 500;
+  }
+
+  /*the child of .herodiv*/
+  .weathersummary {
     position: absolute;
     margin-left: 5%;
     left: 50 px;
@@ -19,10 +19,6 @@
     border: 3px solid #3c362a;
     padding: 1.5rem;
     box-shadow: 0 0 50px rgb(55, 56, 58);
-    opacity: .6;
-
-}
-
-
+    opacity: 0.6;
   }
-  
+}
