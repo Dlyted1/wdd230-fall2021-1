@@ -1,4 +1,4 @@
-@media only screen and (max-width: 800px) {
+@media only screen and (min-width: 768px) {
   header img {
     width: 100%;
   }
@@ -20,5 +20,9 @@
     padding: 1.5rem;
     box-shadow: 0 0 50px rgb(55, 56, 58);
     opacity: 0.6;
+  }
+
+  figcaption {
+    display: none;
   }
 }
