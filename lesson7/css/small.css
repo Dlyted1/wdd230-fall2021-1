@@ -126,11 +126,11 @@ main {
   margin-right: 10px;
 }
 
-/* img {            /* use for very large image scale to correct size */
-/*    max-width: 100%;
-/*   max-height: 100%; }
-/*    display: flex; /* use display block to remove extra space below image */
-
+img {            /* use for very large image scale to correct size */
+    max-width: 100%;
+    max-height: 100%;  
+    display: flex; /* use display block to remove extra space below image */
+}
 
 
   picture.hero-ph {
