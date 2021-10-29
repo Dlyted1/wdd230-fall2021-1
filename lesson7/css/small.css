@@ -266,6 +266,7 @@ main {
     display: inline-block; 
     margin: 0 5px;
     margin-bottom: 10px;
+    
 }
 
 
@@ -286,7 +287,7 @@ footer {
 
 figure {
   margin: 0.25rem;
-  padding: 0.35rem;
+  padding: 1rem;
   background-color: #eee;
   border: 1px solid #bbb;
   display: flex;
@@ -300,8 +301,9 @@ img {
   margin: 0;
 }
 figcaption {
-  font-size: smaller;
+  font-size: small;
   text-align: center;
+  padding-top: 20px;;
 }
 /* hover effect */
 .sun:hover {
