@@ -283,6 +283,7 @@ footer {
 .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  
 }
 
 figure {
@@ -293,13 +294,18 @@ figure {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 
-img { 
+figure img { 
   width: 300px; 
   height: auto; 
   margin: 0;
+  border: 1px solid #ccc;
+  box-shadow: 5px 5px 5px #999;
+  
 }
+
 figcaption {
   font-size: small;
   text-align: center;
@@ -333,10 +339,6 @@ figcaption {
 .icy:hover {
   box-shadow: 0 0 80px #333;
 }
-
-
-
-
 
 
 
