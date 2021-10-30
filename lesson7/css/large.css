@@ -83,4 +83,8 @@
   .icy:hover {
     box-shadow: 0 0 80px #333;
   }
+
+  .container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 } /*end large */
