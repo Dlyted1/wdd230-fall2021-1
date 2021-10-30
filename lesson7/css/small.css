@@ -145,7 +145,7 @@ img {            /* use for very large image scale to correct size */
  .weathersummary {
     display:grid;
     grid-template-columns: repeat(2, 1fr);
-    position:absolute
+    position:absolute;
     margin-left: 5%;
     top: 30px;
     left: 50px;
