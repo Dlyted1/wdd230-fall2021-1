@@ -277,12 +277,11 @@ img {            /* use for very large image scale to correct size */
 
 
 footer {
+  margin: 0 auto;
+  text-align: center;
   background-color: #c9d6ea;
-  padding: 5px 0;
+  padding-top: 20px;
   height: 6em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 @media only screen and (min-width: 220px) {

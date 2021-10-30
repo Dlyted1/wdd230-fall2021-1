@@ -272,14 +272,12 @@ img {            /* use for very large image scale to correct size */
 }
 
 
-
-footer {
-  background-color: #c9d6ea;
-  padding: 5px 0;
-  height: 6em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  footer {
+    margin: 0 auto;
+    text-align: center;
+    background-color: #c9d6ea;
+    padding-top: 20px;
+    height: 6em;
 }
 
 .container {
@@ -318,7 +316,8 @@ figcaption {
   text-align: center;
   }
 
-@media only screen and (min-width: 290) and (max-width: 480px) {
+  
+@media only screen and (max-width: 480px) {
     header img {
         width: 100%;     
     }
