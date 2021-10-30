@@ -16,7 +16,7 @@ if (daysbetween == 0) {
 
   else {
 
-  document.getElementById("lastvisit").innerHTML = `Your last visit was ${daysbetween} days.`;
+  document.querySelector("lastvisit").innerHTML = `Your last visit was ${daysbetween} days.`;
 }
 
   //need to update the stored date
