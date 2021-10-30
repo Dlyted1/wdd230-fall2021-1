@@ -38,9 +38,11 @@ h2 {
 }
 
 h3,
-h4 {
+h4,
+h5 {
   font-family: "Roboto", sans-serif;
 }
+
 
 
 
@@ -297,6 +299,8 @@ figure {
   
 }
 
+
+
 figure img { 
   width: 300px; 
   height: auto; 
@@ -310,6 +314,9 @@ figcaption {
   display: none;
 }
 
+#center {
+  text-align: center;
+  }
 
 @media only screen and (min-width: 290) and (max-width: 480px) {
     header img {
