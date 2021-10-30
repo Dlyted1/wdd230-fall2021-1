@@ -1,28 +1,26 @@
 //determine days between stored date and visit date... today
 //determine todays date
-const todaysDate = new Date(); 
+const todaysDate = Date.now(); 
 const millisecondsToDays = 8640000;  // divide the difference between dates in milliseconds
 // last time visit... stored  in local storage
    //1.     localStrage.getItem('lastvisit')
+const lastVisit = localStorage.getItem("lastvisit") || todaysDate; 
 
-const lastVisit = localStorage.getItem("lastvisit") || Date.now(); 
-  if (lastVisit == 0) {
-    message = 'Welcome to your 1st visit!'
+//determine number of days
+     // to round number    .toFixed(0)
+daysbetween = (todaysDate - lastVisit) / millisecondsToDays).toFixed(0);
 
+if (daysbetween == 0) {
+  document.querySelector("lastvisit").innerHTML = `Welcome to your 1st visit!`;
   }
 
   else {
 
-//determine number of days
-
-  (lastvisit - Date.now() / millisecondsToDays)
-     // to round number    .toFixed(0)
-  }
-  //display here like in windchill
-  document.getElementById("lastvisit").innerHTML= lastVisit;
+  document.getElementById("lastvisit").innerHTML = `Your last visit was ${daysbetween} days.`;
+}
 
   //need to update the stored date
-  localStorage.setItem("lastvisit", Date.now());
+  localStorage.setItem("lastvisit", todaysDate);
 
 
 
