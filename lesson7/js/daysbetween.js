@@ -11,12 +11,12 @@ const lastVisit = localStorage.getItem("lastvisit") || todaysDate;
 daysbetween = ((todaysDate - lastVisit) / millisecondsToDays).toFixed(0);
 
 if (daysbetween == 0) {
-  document.querySelector("#thelastvisit").innerHTML = `Welcome to your 1st visit!`;
+  document.querySelector("#thelastvisit").innerHTML = `Yee-haw! It's your 1st visit!`;
   }
 
   else {
 
-  document.querySelector("#thelastvisit").innerHTML = `Your last visit was: ${daysbetween} days.`;
+  document.querySelector("#thelastvisit").innerHTML = `Welcome back it's been: ${daysbetween} days.`;
 }
 
   //need to update the stored date
