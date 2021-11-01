@@ -5,10 +5,10 @@ function bannerFriday() {
     const banner = document.querySelector(".banner");
 
     if (today == 5) {
-        banner.display = 'block';
+        banner.small.display = 'block';
 
     } else {
-        banner.display = 'none';
+        banner.small.display = 'none';
     }
 }
 bannerFriday();

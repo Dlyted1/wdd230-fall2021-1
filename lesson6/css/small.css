@@ -16,7 +16,7 @@
 }
 
 .banner {
-    
+    display: none;
     text-align: center;
     justify-content: center;
     padding: .5em;
