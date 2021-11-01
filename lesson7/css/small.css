@@ -44,8 +44,6 @@ h5 {
 }
 
 
-
-
 header {
   background-color: #c9d6ea;
   padding: 5px 0;
@@ -74,6 +72,7 @@ header img {
   margin-left: 25px;
   padding-top: 3px;
 }
+
 nav button {
   margin: 0.2rem 2%;
   background-color: transparent;
