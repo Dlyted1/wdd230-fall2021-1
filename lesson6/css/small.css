@@ -15,7 +15,7 @@
   line-height: 1.1em;
 }
 
-#banner {
+.banner {
     
     text-align: center;
     justify-content: center;
@@ -23,6 +23,10 @@
     background-color: burlywood;
     font-weight: 500;
 }
+
+.notFriday {
+  display: none;
+
 
 body {
   background-color: #b8c4bb;
