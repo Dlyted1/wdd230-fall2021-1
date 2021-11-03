@@ -10,22 +10,17 @@ table {
   border-collapse: collapse;
 }
 
-tfoot {
-  background-color: #7fb9c2;
-  font-size: smaller;
-}
-
 tr:first-child th {
-  font-size: larger;
+  font-size: x-large;
   background-color: #7fb9c2;
   color: black;
 }
 
 th,
 td {
-  padding: 7px 15px;
+  padding: 15px 30px;
   border: thin solid rgb(112, 106, 106);
-  font-weight: 100;
+  font-size: 20px;
 }
 
 th {
@@ -44,4 +39,12 @@ tbody tr:nth-child(even) {
 
 tbody tr:nth-child(odd) {
   background-color: #e7f0ed;
+}
+
+tfoot {
+  background-color: #7fb9c2;
+}
+
+tfoot td {
+  font-size: smaller;
 }
