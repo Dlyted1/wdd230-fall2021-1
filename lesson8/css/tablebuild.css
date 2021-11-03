@@ -6,29 +6,31 @@ html {
 
 table {
   margin: 10px auto;
-  border: thin solid rgb(200, 200, 200);
+  border: thin solid rgb(112, 106, 106);
   box-shadow: 10px 5px 5px #628ca6;
   border-collapse: collapse;
 }
 
-thead,
 tfoot {
   background-color: #7fb9c2;
+  font-size: smaller;
 }
 
 tr:first-child th {
-  background-color: var(--back);
-  color: var(--forelight);
+  font-size: larger;
+  background-color: #7fb9c2;
+  color: black;
 }
 
 th,
 td {
   padding: 7px 15px;
-  border: 1px solid;
+  border: thin solid rgb(112, 106, 106);
 }
 
 th {
   background-color: #628ca6;
+  color: white;
 }
 
 td {
