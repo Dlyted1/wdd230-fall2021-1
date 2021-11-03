@@ -48,3 +48,8 @@ tfoot {
 tfoot td {
   font-size: smaller;
 }
+
+@media only screen and (max-width: 480px) {
+  table {
+      width:95%;
+  }
