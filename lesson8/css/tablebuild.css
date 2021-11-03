@@ -1,11 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 html {
   font-family: "Ubuntu", sans-serif;
 }
 
 table {
-  margin: 10px auto;
+  margin: 0 auto;
   border: thin solid rgb(112, 106, 106);
   box-shadow: 5px 5px 5px #628ca6;
   border-collapse: collapse;
@@ -26,11 +25,13 @@ th,
 td {
   padding: 7px 15px;
   border: thin solid rgb(112, 106, 106);
+  font-weight: 100;
 }
 
 th {
   background-color: #628ca6;
   color: white;
+  font-weight: bold;
 }
 
 td {
