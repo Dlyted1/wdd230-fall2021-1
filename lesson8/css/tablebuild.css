@@ -5,13 +5,13 @@ html {
 
 table {
   margin: 10px auto;
-  border: thin solid rgb(112, 106, 106);
+  border: thin solid rgb(219, 213, 213);
   box-shadow: 5px 5px 5px #628ca6;
   border-collapse: collapse;
 }
 
 tr:first-child th {
-  font-size: x-large;
+  font-size: xx-large;
   background-color: #7fb9c2;
   color: black;
 }
@@ -19,7 +19,7 @@ tr:first-child th {
 th,
 td {
   padding: 15px 30px;
-  border: thin solid rgb(112, 106, 106);
+  border: thin solid rgb(219, 213, 213);
   font-size: 20px;
 }
 
