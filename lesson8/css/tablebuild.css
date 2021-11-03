@@ -4,7 +4,7 @@ html {
 }
 
 table {
-  margin: 0 auto;
+  margin: 10px auto;
   border: thin solid rgb(112, 106, 106);
   box-shadow: 5px 5px 5px #628ca6;
   border-collapse: collapse;
