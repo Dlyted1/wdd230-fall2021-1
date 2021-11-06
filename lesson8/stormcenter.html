@@ -73,7 +73,24 @@
                   <option value="Tornado">
               </datalist>
             <input type="submit" value = "Enter">
-          </form>
+          </form><br>
+
+        <!-- rating slider -->
+          <label class="flexly" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;
+            <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+            <span id="ratingvalue">10</span>
+          </label>
+
+       <!-- dropdown menu -->
+          <label class="top">Storm Region
+            <select name="subject">
+                <option value="">Select Region &#9662;</option> <!-- &#9662; added here for small screens drop down arrow that disappeared-->
+            <option value="preston">Preston</option>
+            <option value="sodasprings">Soda Springs</option>
+            <option value="fish">Fish Haven</option>
+            
+            </select>
+        </label>
 
         <div class="contentbox">
         <div class="map-responsive">
