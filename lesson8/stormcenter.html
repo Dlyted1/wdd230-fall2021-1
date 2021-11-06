@@ -50,18 +50,18 @@
           <legend>Your Information</legend>
           <!-- the * after First Name represents a required field
                also required at the end represents field if required and wont be submitted until info entered-->
-          <label class="top">Full Name* <input type="text" name="fname" required></label>
-          <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
-          <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234"></label>
-          <label class="top">Zip Code* <input type="number" name="zip" required></label>
+          <label class="top">Full Name* <input type="text" name="fname" required></label><br>
+          <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label><br>
+          <label class="top">Phone* <input type="tel" name="phone" placeholder="###-###-####"></label><br>
+          <label class="top">Zip Code* <input type="number" name="zip" required></label><br>
         </fieldset>
 
         <!--section 2-->
         <fieldset>
             <legend>Storm Information</legend>
-            <label class="top">Storm Date <input type="date" name="date"></label>
+            <label class="top">Storm Date <input type="date" name="date"></label><br>
             
-          <div>Storm Type</div>>
+          <div>Storm Type</div>
           <form action="/action_page.php" method="get">
           <label for="storm">Please select the tyoe of storm:</label>
             <input list="storms" name="storm" id="storm">
