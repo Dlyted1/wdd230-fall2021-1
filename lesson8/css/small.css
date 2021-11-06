@@ -32,6 +32,8 @@ body {
   margin: 0;
 }
 
+
+
 h1,
 h2 {
   font-family: "Ubuntu Condensed", sans-serif;
@@ -123,6 +125,7 @@ nav ul.hide {
 }
 
 main {
+  max-width: 760px;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -322,7 +325,8 @@ figcaption {
   }
   
   form legand {
-    color: #445ba9;
+    font-size: 16px;
+    font-weight: bold;
     margin: 0 1rem;
     padding: 0 0.5rem;
   }
@@ -331,9 +335,9 @@ figcaption {
   form div {
     display: block;
     padding-top: 1rem;
-    color: #9c2c13;
-    font-size: 0.8rem;
-  }
+    color: #663f46;
+    font-size: 15px;
+    }
   
   form label.top input,
   form label top.select {
@@ -358,7 +362,7 @@ figcaption {
   
   form input.submitBtn {
       border: none;
-      background-color: #3c362a;
+      background-color: #663f46;
       color: #c9d6ea;
       
       padding: .75rem 1.5rem;

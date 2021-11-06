@@ -43,7 +43,7 @@
        <!-- CONTENT HERE -->
 <main>
   <h1>Storm Center</h1>
-  <h2>Report A Storm</h2>
+  <h2>Report Storm</h2>
   <form method="get" action="thanks.html">
       <!--section 1-->
       <fieldset>
@@ -72,16 +72,16 @@
                   <option value="Thunderstorm">
                   <option value="Tornado">
               </datalist>
-          </form><br>
+          </form><br><br>
 
         <!-- rating slider -->
           <label class="flexy" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;
             <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
             <span id="ratingvalue">10</span>
-          </label>
+          </label><br><br>
 
        <!-- dropdown menu -->
-          <label class="top">Storm Region
+          <label class="storm">Storm Region
             <select name="subject">
                 <option value="">Select Region &#9662;</option> <!-- &#9662; added here for small screens drop down arrow that disappeared-->
             <option value="preston">Preston</option>
@@ -160,7 +160,7 @@
 <script>
   WebFont.load({
     google: {
-      families: ['Ubuntu', 'Roboto']
+      families: ['Ubuntu Condensed', 'Roboto']
     }
   });
 </script>
