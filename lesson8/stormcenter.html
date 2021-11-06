@@ -75,7 +75,7 @@
           </form><br><br>
 
         <!-- rating slider -->
-          <label class="flexy" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;
+          <label class="flexy" for="rating" style="color: #663f46;">Storm Severity: &nbsp;&nbsp;&nbsp; <br>
             <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
             <span id="ratingvalue">10</span>
           </label>
@@ -95,9 +95,9 @@
       
 
        <!-- dropdown menu -->
-          <label class="storm">Storm Region
+          <label class="storm" style="color: #663f46;">Storm Region
             <select name="subject">
-                <option value="">Select Region &#9662;</option> <!-- &#9662; added here for small screens drop down arrow that disappeared-->
+                <option style="color: #663f46;" value="">Select Region </option> <!-- &#9662; added here for small screens drop down arrow that disappeared-->
             <option value="preston">Preston</option>
             <option value="sodasprings">Soda Springs</option>
             <option value="fish">Fish Haven</option>

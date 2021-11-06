@@ -46,6 +46,8 @@
   main {
     max-width: 2500px;
     margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
   }
 
   figcaption {
