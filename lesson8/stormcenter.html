@@ -63,7 +63,7 @@
             
           <div>Storm Type</div>
           <form action="/action_page.php" method="get">
-          <label for="storm">Please select the tyoe of storm:</label>
+          <label class="storm" for="storm">Please select the tyoe of storm:</label>
             <input list="storms" name="storm" id="storm">
               <datalist id="storms">
                   <option value="Flash Flood">
@@ -75,7 +75,7 @@
           </form><br>
 
         <!-- rating slider -->
-          <label class="flexly" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;
+          <label class="flexy" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;
             <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
             <span id="ratingvalue">10</span>
           </label>
