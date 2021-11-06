@@ -324,8 +324,8 @@ figcaption {
     padding: 0.5rem 2%;
   }
   
-  form legand {
-    font-size: 16px;
+ form legand {
+    font-size: 18px;
     font-weight: bold;
     margin: 0 1rem;
     padding: 0 0.5rem;
@@ -356,34 +356,47 @@ figcaption {
   
   form label.sbs {
       display: block; /* so they stack on top of one another */
-      padding: .75rem 0; /* applied to top and bottom for the min height requirement of 44px */
+      padding: .50rem 0; /* applied to top and bottom for the min height requirement of 44px */
       color: #555;
+      
   }
   
   form input.submitBtn {
+      display: flex;
+      justify-content: center;
       border: none;
       background-color: #663f46;
       color: #c9d6ea;
-      
-      padding: .75rem 1.5rem;
-      margin 0 0 2rem 2%;
+      padding: .75rem .75rem;
+      margin: 0 auto;
       width: 96%; /* for smaller screens */
       max-width: 20rem; /* for larger screens */
+      
   }
   .flexly {
     display: flex;
     align-items: center;
+    color: #c9d6ea;
   }
   
   #ratingvalue {
     margin: 0 15px;
-    color: #2075ff;
+    color: black;
   }
   
+  #comments {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    margin: 10px 30px 20px 0;
+  }
+
+
   form label.top input:required {
-      border-left: #c9d6ea 6px;
+      border-left: #c9d6ea solid 6px;
   }
-  
+
+    
   /* color will change when passed test */
   form label.top input:required:valid {
       border-left: green solid 6px;

@@ -87,4 +87,7 @@
   .container {
     grid-template-columns: 1fr 1fr 1fr;
   }
+
+  form label.sbs {
+    padding: 0.4rem 0;
 } /*end large */

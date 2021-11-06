@@ -47,7 +47,7 @@
   <form method="get" action="thanks.html">
       <!--section 1-->
       <fieldset>
-          <legend>Your Information</legend>
+          <legend style="font-size:16px;">Your Information</legend>
           <!-- the * after First Name represents a required field
                also required at the end represents field if required and wont be submitted until info entered-->
           <label class="top">Full Name* <input type="text" name="fname" required></label><br>
@@ -58,12 +58,12 @@
 
         <!--section 2-->
         <fieldset>
-            <legend>Storm Information</legend>
+            <legend style="font-size:16px;">Storm Information</legend>
             <label class="top">Storm Date <input type="date" name="date"></label><br>
             
           <div>Storm Type</div>
           <form action="/action_page.php" method="get">
-          <label class="storm" for="storm">Please select the tyoe of storm:</label>
+          <label class="storm" for="storm">Please select the type of storm:</label>
             <input list="storms" name="storm" id="storm">
               <datalist id="storms">
                   <option value="Flash Flood">
@@ -94,21 +94,16 @@
             <!-- sbs is 'sise by side'-->
             <label class="sbs"><input type="radio" name="danger" value="yes">Yes</label>
             <label class="sbs"><input type="radio" name="danger" value="maybe">Maybe</label>
-            <label class="sbs"><input type="radio" name="danger" value="no">No</label>
+            <label class="sbs"><input type="radio" name="danger" value="no">No</label><br><br>
 
         <form action="/action_page.php">
-            <label for="comments">Additional Information or Comments:</label>
-            <textarea id="comments" name="comments" rows="15" cols="100"></textarea>
+            <label for="comments" style="color: #663f46;">Additional Information or Comments:</label>
+            <textarea id="comments" name="comments"></textarea>
         </form>
         <input type="submit" value = "Send Storm Report" class="submitBtn">  
       </fieldset>
 
-            
-
-
   </form>
-
-
 
 
         <div class="contentbox">
@@ -156,6 +151,7 @@
      <script src="js/imagehandling.js"></script>
      <script src="js/count.js"></script> 
      <script src="js/daysbetween.js"></script>
+     <script src="js/form.js"></script>
      <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 <script>
   WebFont.load({
