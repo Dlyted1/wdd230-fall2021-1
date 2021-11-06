@@ -25,4 +25,8 @@
   figcaption {
     display: none;
   }
+  
+  main {
+    padding-left: 50px;
+    padding-right: 50px;
 }
