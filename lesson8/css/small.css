@@ -366,6 +366,15 @@ figcaption {
       width: 96%; /* for smaller screens */
       max-width: 20rem; /* for larger screens */
   }
+  .flexly {
+    display: flex;
+    align-items: center;
+  }
+  
+  #ratingvalue {
+    margin: 0 15px;
+    color: #2075ff;
+  }
   
   form label.top input:required {
       border-left: #c9d6ea 6px;
