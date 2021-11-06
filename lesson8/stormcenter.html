@@ -33,13 +33,11 @@
           <li><a href="../lesson5/preston-5.html">Preston</a></li>
           <li><a href="#">Soda Springs</a></li>
           <li><a href="#">Fish Haven</a></li>
-          <li class="active"><a href="stormcenter.html">Storm Center</a></li>  
+          <li class="active"><a href="../lesson8/stormcenter.html">Storm Center</a></li>  
           <li><a href="../lesson7/gallery-7.html">Gallery</a></li> 
         </ul>
     </nav>
     
-
-      <main>
        <!-- CONTENT HERE -->
 <main>
   <h1>Storm Center</h1>
@@ -50,7 +48,7 @@
           <legend style="font-size:16px;">Your Information</legend>
           <!-- the * after First Name represents a required field
                also required at the end represents field if required and wont be submitted until info entered-->
-          <label class="top">Full Name* <input type="text" size="5" name="fname" required pattern="[A-Za-z]"></label><br>
+          <label class="top">Full Name* <input type="text"  name="fname" required pattern="[a-zA-Z]{5, 57}"></label><br>
           <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label><br>
           <label class="top">Phone* <input type="tel" name="phone" placeholder="###-###-####"></label><br>
           <label class="top">Zip Code* <input type="number" name="zip" required></label><br>
