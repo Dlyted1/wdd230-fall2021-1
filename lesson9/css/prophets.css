@@ -11,9 +11,10 @@ body {
 }
 
 h1 {
-  font-family: "Bradley Hand", serif;
+  font-family: "Lucida Handwriting", cursive;
   border: 1px solid #ccc;
   padding: 15px;
+  font-size: 35px;
 }
 
 h2,
@@ -21,6 +22,7 @@ h3,
 h4 {
   font-family: "Lucida Handwriting", cursive;
   padding: 0.25rem;
+  font-size: 18px;
 }
 
 #emessage {
