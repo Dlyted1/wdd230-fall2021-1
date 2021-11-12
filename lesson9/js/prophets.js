@@ -21,7 +21,7 @@ fetch(requestURL)
       let image = document.createElement('img');
 
     // now populate the elements with the data from the JSON file
-    // h2.innerHTML = prophet.name + ' <span style="color:navy;">' + prophet.lastname + '</span'; // ` challenge can use template literal here instead see below line to replace above
+    // h2.innerHTML = prophet.name + ' <span style="color:navy;">' + prophet.lastname + '</span'; // `  can use template literal here instead see below line to replace above
     h2.innerHTML = `${prophet.name} <span class="highlight">${prophet.lastname}</span`;
     birthdate.innerHTML = `Date of Birth: ${prophet.birthdate}`;
     birthplace.innerHTML = `Place of Birth: ${prophet.birthplace}`;
