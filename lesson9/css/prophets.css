@@ -45,6 +45,10 @@ div section {
   background-color: #f2e9e4;
   max-width: 90%;
   border: 1px solid black;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 img {
