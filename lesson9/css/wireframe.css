@@ -7,5 +7,27 @@
 body {
   text-align: center;
   margin: 0 auto;
-  background-color: #33518a;
+  background-color: #b8c4bb;
+}
+
+h1 {
+  color: #3c362a;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+img.wiremed {
+  max-width: 75%;
+  padding: 25px 0px;
+}
+
+img.wirelarge {
+  max-width: 75%;
+  padding: 25px 0px;
 }
