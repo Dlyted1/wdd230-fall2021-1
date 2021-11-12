@@ -25,12 +25,15 @@ fetch(requestURL)
     h2.innerHTML = `${prophet.name} <span class="highlight">${prophet.lastname}</span`;
     birthdate.innerHTML = `Date of Birth: ${prophet.birthdate}`;
     birthplace.innerHTML = `Place of Birth: ${prophet.birthplace}`;
-
+    image.setAttribute('src', prophet.imageurl);
+    image.setAttribute('alt', `${prophet.name} ${prophet.lastname}-${prophet.order}`);
     // build the Prophet cards
     card.appendChild(h2);
     card.appendChild(birthdate);
     card.appendChild(birthplace);
     card.appendChild(image);
+
+    
     document.querySelector('div.cards').appendChild(card);
    });  
   });
