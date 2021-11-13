@@ -10,7 +10,7 @@ fetch(requestURL)
     console.table(jsonObject);  // temporary checking for valid response and data parsing
     const towns = jsonObject['towns'];
     const theTowns = towns.filter((town) =>
-      town.name ==='Preston' || town.name === 'Fish Haven' || 'Soda Springs');
+      town.name ==='Preston' || town.name === 'Fish Haven' || town.name === 'Soda Springs');
      // create the card and each element needed
      theTowns.forEach((theTowns) => {
      let card = document.createElement('section');
