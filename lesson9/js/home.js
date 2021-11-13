@@ -3,6 +3,7 @@ const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
 fetch(requestURL)
   .then(function (response) {
+    return response.json();
     
   })
   .then(function (jsonObject) {
@@ -27,7 +28,7 @@ fetch(requestURL)
     yearFounded.innerHTML = `Year Founded: ${theTowns.yearFounded}`;
     currentPopulation.innerHTML = `Population: ${theTowns.currentPopulation}`;
     averageRainfall.innerHTML = `Average Rain Fall: ${theTowns.averageRainfall}`;
-    image.setAttribute('src', theTowns.imageurl);
+    image.setAttribute('src', `images9/${theTowns.photo}`);
     image.setAttribute('alt', `${theTowns.name} `);
     // build the Prophet cards
     card.appendChild(h2);
