@@ -236,26 +236,33 @@ img {            /* use for very large image scale to correct size */
     padding: 5px;
 }
 div.cards {
-  display: grid;
-  grid-template-columns: 1fr;
-  margin: 0 auto;
+  display: grid; 
+  margin: 20px auto;
   grid-gap: 30px;
+  color: #ccc;
 } 
 
 div.cards section {
   padding: 5px;
   background-color: #663f46;
   max-width: 90%;
-  border: 1px solid #ccc;
+  border: 2px solid #999;
   text-align: center;
+  box-shadow: 0 0 50px rgb(55, 56, 58);
+}
+div.cards h2 {
+  font-size: 25px;
+  
+
 }
 
 div.cards img {
-  max-width: 75%;
+  max-width: 90%;
   margin-top: 10px;
   margin-bottom: 10px;
-  border: 1px solid #ccc;
-  box-shadow: 8px 8px 8px #999;
+  margin-left: 10px;
+  border: 2px solid rgb(55, 56, 58);
+  box-shadow: 5px 5px 5px rgb(129, 127, 127);
 }
 
 

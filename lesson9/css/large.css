@@ -92,4 +92,13 @@
 
   form label.sbs {
     padding: 0.4rem 0;
-} /*end large */
+} 
+
+div.cards {
+  display: flex;
+  justify-items: center;
+  
+  margin: 5px auto;
+  grid-gap: 30px;
+} 
+/*end large */

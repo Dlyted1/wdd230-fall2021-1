@@ -24,10 +24,10 @@ fetch(requestURL)
     // now populate the elements with the data from the JSON file
     // h2.innerHTML = prophet.name + ' <span style="color:navy;">' + prophet.lastname + '</span'; // `  can use template literal here instead see below line to replace above
     h2.innerHTML = `${theTowns.name}`;
-    motto.innerHTML = `${theTowns.motto} <span class="highlight">${theTowns.name}</span`;
-    yearFounded.innerHTML = `Year Founded: ${theTowns.yearFounded}`;
-    currentPopulation.innerHTML = `Population: ${theTowns.currentPopulation}`;
-    averageRainfall.innerHTML = `Average Rain Fall: ${theTowns.averageRainfall}`;
+    motto.innerHTML = `<i>${theTowns.motto}</i>`;
+    yearFounded.innerHTML = `<b>Year Founded:</b> ${theTowns.yearFounded}`;
+    currentPopulation.innerHTML = `<b>Population:</b> ${theTowns.currentPopulation}`;
+    averageRainfall.innerHTML = `<b>Average Rain Fall:</b> ${theTowns.averageRainfall}`;
     image.setAttribute('src', `images9/${theTowns.photo}`);
     image.setAttribute('alt', `${theTowns.name} `);
     // build the Prophet cards
