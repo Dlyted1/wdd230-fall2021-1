@@ -1,0 +1,95 @@
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 1025px) and (max-width: 2500px) {
+  header img {
+    width: 100%;
+  }
+
+  header,
+  footer {
+    max-width: 2500px;
+    margin: 0 auto;
+    border: 1px double;
+  }
+
+  body {
+    max-width: 2500px;
+    margin: 0 auto;
+    border: 1px double;
+  }
+
+  nav {
+    background: #3c362a;
+  }
+
+  nav button {
+    display: none;
+  }
+
+  nav ul.hide {
+    display: block;
+  }
+
+  nav ul {
+    margin-left: 2%;
+  }
+
+  nav ul li {
+    float: left;
+  }
+
+  nav ul li a {
+    border: none;
+    border-right: 1px solid rgba(01, 01, 01, 0.03);
+    padding: 0.6rem 1.7rem;
+  }
+
+  main {
+    max-width: 2500px;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  figcaption {
+    display: flex;
+    font-size: smaller;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  /* hover effect */
+  .sun:hover {
+    box-shadow: 0 0 80px #333;
+  }
+  .wind:hover {
+    box-shadow: 0 0 80px #333;
+  }
+  .rain:hover {
+    box-shadow: 0 0 80px #333;
+  }
+  .rainbow:hover {
+    box-shadow: 0 0 80px #333;
+  }
+  .thunder:hover {
+    box-shadow: 0 0 80px #333;
+  }
+  .hail:hover {
+    box-shadow: 0 0 80px #333;
+  }
+  .snow:hover {
+    box-shadow: 0 0 80px #333;
+  }
+  .cold:hover {
+    box-shadow: 0 0 80px #333;
+  }
+  .icy:hover {
+    box-shadow: 0 0 80px #333;
+  }
+
+  .container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  form label.sbs {
+    padding: 0.4rem 0;
+} /*end large */

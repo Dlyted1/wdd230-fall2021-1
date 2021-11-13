@@ -1,0 +1,415 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+*/
+
+.contentbox {
+  display: block;
+  margin: 10px auto;
+  border: 1px solid #000;
+  padding: 15px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  line-height: 1.1em;
+}
+
+#banner {
+    
+    text-align: center;
+    justify-content: center;
+    padding: .5em;
+    background-color: burlywood;
+    font-weight: 500;
+}
+
+body {
+  background-color: #b8c4bb;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+h1,
+h2 {
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+
+h3,
+h4,
+h5 {
+  font-family: "Roboto", sans-serif;
+}
+
+
+header {
+  background-color: #c9d6ea;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header img {
+  height: 80px;
+  width: auto;
+}
+
+.headings {
+  display: flex;
+  flex-direction: column;
+}
+.headings h1 {
+  font-size: 2rem;
+  margin: 0 0 0 17px;
+}
+
+.m {
+  font-style: italic;
+  font-size: small;
+  margin-left: 25px;
+  padding-top: 3px;
+}
+
+nav button {
+  margin: 0.2rem 2%;
+  background-color: transparent;
+  border: none;
+  font-size: 1.6rem;
+  color: #c9d6ea;
+}
+
+nav {
+  background-color: #3c362a;
+  font-family: Roboto, sans-serif;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem 2%;
+  text-decoration: none;
+  color: #c9d6ea;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+nav ul li.active a {
+  background-color: rgba(184, 196, 187, 0.2);
+  color: #c9d6ea;
+}
+
+nav ul li a:hover {
+  background-color: rgba(184, 196, 187, 0.4);
+}
+
+nav ul.hide {
+  display: none;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+main {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+img {            /* use for very large image scale to correct size */
+    max-width: 100%;
+    max-height: 100%;  
+    display: flex; /* use display block to remove extra space below image */
+}
+
+
+  picture.hero-ph {
+    display: block;
+    width: 100%;
+    Margin: 0 auto;
+  }
+     
+  /*the child of .herodiv*/
+ .weathersummary {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    position:absolute;
+    margin-left: 5%;
+    top: 30px;
+    left: 50px;
+    background: radial-gradient(#eee, #4567aa);
+    border: 3px solid #3c362a;
+    padding: 1rem;
+    box-shadow: 0 0 50px rgb(55, 56, 58);
+    opacity: .6;
+
+}
+
+
+.label {
+    grid-column: 1;
+    line-height: 50%;
+    
+}
+
+.value {
+    grid-column: 2;
+    line-height: 50%;
+   
+}
+
+.article {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.grid { 
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
+    margin: 10px auto;
+    border: 1px solid #000;
+    padding: 15px;
+    background-color: #C9D6EA;
+
+}
+.grid-col {
+  border: 1px solid #333;
+  text-align: center;
+}
+.grid-col:hover {
+  opacity: 0.75;
+  background-color: #C9D6EA;
+  color: #3c362a;
+}
+
+
+.col-head {
+	display: block;
+	padding: 5px;
+	border; 1px solid #333;
+	text-align: center;
+  font-weight: 700;
+	font-size: 1rem;
+	background-color: #3c362a;
+	color: white;
+}
+
+
+
+.data {
+	display: block;
+	padding: 0 5px 5px;
+	font-size: 0.8rem;
+	text-align: center;
+}
+
+
+
+.sun1, .sun2, .sun3, .sun4, .sun5 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100px;
+        padding: 0.25rem;
+    }
+
+.article-img {
+    float: right;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.map-responsive {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    margin-top: 15px;
+    height:80%;
+    width:100%;
+    position:absolute;
+    box-shadow: 0 0 50px rgb(55, 56, 58);
+
+}
+
+.contact {
+    position: relative;
+    text-align: center;  
+}
+
+
+.social {      
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+}
+
+.social-icon {
+    display: inline-block; 
+    margin: 0 5px;
+    margin-bottom: 10px;    
+}
+
+
+  footer {
+    margin: 0 auto;
+    text-align: center;
+    background-color: #c9d6ea;
+    padding-top: 20px;
+    height: 6em;
+    width: 100% !important;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  
+}
+
+figure {
+  margin: 0.25rem;
+  padding: 1rem;
+  background-color: #eee;
+  border: 1px solid #bbb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+
+
+figure img { 
+  width: 300px; 
+  height: auto; 
+  margin: 0;
+  border: 1px solid #ccc;
+  box-shadow: 5px 5px 5px #999;
+  
+}
+
+figcaption {
+  display: none;
+}
+
+#center {
+  text-align: center;
+  }
+
+  form fieldset {
+    margin: 2rem 0;
+    border: 1px solid black;
+    padding: 0.5rem 2%;
+  }
+  
+ form legand {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 1rem;
+    padding: 0 0.5rem;
+  }
+  
+  form label.top,
+  form div {
+    display: block;
+    padding-top: 1rem;
+    color: #663f46;
+    font-size: 15px;
+    }
+  
+  form label.top input,
+  form label top.select {
+  /* webkit added for chrome & Safari since not following rules here and this will override the default appearance */
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px; /* to make edges on input box rounded */
+    padding: 0.75rem; /* applied  for the min height requirement of 44px */
+    color: #555;
+    width: 100%; /* for smaller screens */
+    /* max-width: 20rem; /* for larger screens */
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  form label.sbs {
+      display: block; /* so they stack on top of one another */
+      padding: .50rem 0; /* applied to top and bottom for the min height requirement of 44px */
+      color: #555;
+      
+  }
+  
+  form input.submitBtn {
+      display: flex;
+      justify-content: center;
+      border: none;
+      background-color: #663f46;
+      color: #c9d6ea;
+      padding: .75rem .75rem;
+      margin: 0 auto;
+      width: 96%; /* for smaller screens */
+      max-width: 20rem; /* for larger screens */
+      
+  }
+
+  
+
+  
+
+  .flexly {
+    display: flex;
+    align-items: center;
+    color: #c9d6ea;
+  }
+  
+  #ratingvalue {
+    margin: 0 15px;
+    color: black;
+  }
+  
+  #comments {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    margin: 10px 30px 20px 0;
+  }
+
+
+  form label.top input:required {
+      border-left: #c9d6ea solid 6px;
+  }
+
+    
+  /* color will change when passed test */
+  form label.top input:required:valid {
+      border-left: green solid 6px;
+  }
+
+@media only screen and (max-width: 480px) {
+    header img {
+        width: 100%;     
+    }
+
+  }
+    
