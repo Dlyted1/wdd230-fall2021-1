@@ -25,8 +25,29 @@
   figcaption {
     display: none;
   }
-  
+
   main {
     padding-left: 50px;
     padding-right: 50px;
+  }
+
+  div.cards section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  div.cards section:nth-child(odd) div {
+    grid-column: 2;
+  }
+
+  div.cards section:nth-child(odd) img {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  div.cards img {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
 }
