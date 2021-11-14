@@ -5,12 +5,13 @@
 
   /*the  parent container*/
   .herodiv {
-    margin: 10px auto;
+    margin: 0 auto;
     position: relative;
     font-weight: 500;
+    max-height: 40%;
   }
 
-  /*the child of .herodiv*/
+  /*the child of .herodiv*
   .weathersummary {
     position: absolute;
     margin-left: 5%;
@@ -20,7 +21,7 @@
     padding: 1.5rem;
     box-shadow: 0 0 50px rgb(55, 56, 58);
     opacity: 0.6;
-  }
+  } */
 
   figcaption {
     display: none;
