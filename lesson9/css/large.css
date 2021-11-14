@@ -19,6 +19,8 @@
 
   nav {
     background: #3c362a;
+    width: 100%;
+    overflow: auto;
   }
 
   nav button {

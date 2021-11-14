@@ -53,4 +53,10 @@
     margin-top: 10px;
     box-shadow: 5px 5px 5px rgb(129, 127, 127);
   }
+
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }

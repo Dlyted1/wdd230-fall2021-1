@@ -141,6 +141,10 @@ img {            /* use for very large image scale to correct size */
     width: 100%;
     Margin: 0 auto;
   }
+
+  
+
+  
      
   /*the child of .herodiv*/
  .weathersummary {
@@ -157,6 +161,8 @@ img {            /* use for very large image scale to correct size */
     opacity: .6;
 
 }
+
+
 
 
 .label {
@@ -267,6 +273,25 @@ div.cards img {
   box-shadow: 0px 0px 10px rgb(129, 127, 127);
 }
 
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3c362a; /* Green */
+  border: none;
+  color: white;
+  padding: 20px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 4px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #b40f0f;
+  color:beige;
 
 .map-responsive {
     overflow:hidden;
@@ -405,10 +430,7 @@ figcaption {
       max-width: 20rem; /* for larger screens */
       
   }
-
-  
-
-  
+   
 
   .flexly {
     display: flex;
