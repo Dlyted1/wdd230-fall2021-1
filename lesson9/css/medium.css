@@ -26,10 +26,10 @@
     display: none;
   }
 
-  main {
+  /* main {
     padding-left: 50px;
     padding-right: 50px;
-  }
+  } */
 
   div.cards section {
     display: grid;
@@ -48,6 +48,15 @@
   div.cards img {
     width: 100%;
     height: auto;
-    padding: 0;
+    padding: 10px;
+    margin: 0 auto;
+  }
+
+  div.cards h2 {
+    margin: 0 auto;
+  }
+
+  div.cards p {
+    margin: 0 auto;
   }
 }
