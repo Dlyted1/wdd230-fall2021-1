@@ -19,6 +19,7 @@ fetch(requestURL)
       let yearFounded = document.createElement('p');
       let currentPopulation = document.createElement('p');
       let averageRainfall = document.createElement('p');
+      let data = document.createElement('div');
       let image = document.createElement('img');
 
     // now populate the elements with the data from the JSON file
@@ -28,14 +29,16 @@ fetch(requestURL)
     yearFounded.innerHTML = `<b>Year Founded:</b> ${theTowns.yearFounded}`;
     currentPopulation.innerHTML = `<b>Population:</b> ${theTowns.currentPopulation}`;
     averageRainfall.innerHTML = `<b>Average Rain Fall:</b> ${theTowns.averageRainfall}`;
+    data.className = ('data');
     image.setAttribute('src', `images9/${theTowns.photo}`);
     image.setAttribute('alt', `${theTowns.name} `);
     // build the Prophet cards
-    card.appendChild(h2);
-    card.appendChild(motto);
-    card.appendChild(yearFounded);
-    card.appendChild(currentPopulation);
-    card.appendChild(averageRainfall);
+    card.appendChild(data);
+    data.appendChild(h2);
+    data.appendChild(motto);
+    data.appendChild(yearFounded);
+    data.appendChild(currentPopulation);
+    data.appendChild(averageRainfall);
     card.appendChild(image);
 
     

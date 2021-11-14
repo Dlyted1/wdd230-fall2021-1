@@ -261,9 +261,10 @@ div.cards img {
   max-width: 90%;
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-left: 20px;
+  margin-left: 10px;
+  padding: 10px;
   border: 2px solid rgb(55, 56, 58);
-  box-shadow: 5px 5px 5px rgb(129, 127, 127);
+  box-shadow: 0px 0px 10px rgb(129, 127, 127);
 }
 
 

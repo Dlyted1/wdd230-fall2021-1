@@ -46,7 +46,6 @@
   main {
     max-width: 2500px;
     margin: 0 auto;
-    
   }
 
   figcaption {
@@ -91,13 +90,17 @@
 
   form label.sbs {
     padding: 0.4rem 0;
-} 
+  }
 
-div.cards {
-  display: flex;
-  justify-items: center;
-  
-  margin: 5px auto;
-  grid-gap: 30px;
-} 
+  div.cards {
+    display: flex;
+    justify-items: center;
+
+    margin: 5px auto;
+    grid-gap: 30px;
+  }
+  div.cards img {
+    box-shadow: 0px 0px 10px rgb(129, 127, 127);
+  }
+}
 /*end large */
