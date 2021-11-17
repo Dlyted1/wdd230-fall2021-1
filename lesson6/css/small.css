@@ -24,8 +24,6 @@
     font-weight: 500;
 }
 
-.notFriday {
-  display: none;
 
 
 body {
@@ -178,10 +176,7 @@ img {            /* use for very large image scale to correct size */
    
 }
 
-.article {
-    padding-left: 20px;
-    padding-right: 20px;
-}
+
 
 
 .grid { 
@@ -234,6 +229,10 @@ img {            /* use for very large image scale to correct size */
         padding: 0.25rem;
     }
 
+  .article {
+      padding-left: 20px;
+      padding-right: 20px;
+  }
 .article-img {
     float: right;
     margin-top: 15px;
