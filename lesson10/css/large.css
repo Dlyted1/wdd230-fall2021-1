@@ -1,5 +1,5 @@
 /* 64em is also 1028px when basefont is 16px */
-@media only screen and (min-width: 1025px) and (max-width: 2500px) {
+@media only screen and (min-width: 950px) {
   header img {
     width: 100%;
   }
