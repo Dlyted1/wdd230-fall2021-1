@@ -1,7 +1,9 @@
+const weekDay = d.getDay();
+const bannerShow = document.querySelector("aside");
 
-const banner = document.querySelector('.banner');
-const weekDay = new Date().getDay();
 
-if (weekDay === 5) {
-   banner.classList.add('viewable');
+if (weekDay == 5) {
+   bannerShow.setAttribute("class", "banner");
+} else {
+    bannerShow.setAttribute("class", "noview"):
 }
