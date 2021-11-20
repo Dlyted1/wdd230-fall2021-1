@@ -16,12 +16,15 @@
 }
 
 .banner {
-    display: flex;
     text-align: center;
     justify-content: center;
     padding: .5em;
     background-color: burlywood;
     font-weight: 500;
+}
+
+.viewable {
+  display: block;
 }
 
 

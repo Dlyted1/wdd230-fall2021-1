@@ -1,16 +1,7 @@
 
-function bannerFriday() {
+const banner = document.querySelector('.banner');
+const weekDay = new Date().getDay();
 
-    const d = new Date();
-    const today = d.getDay();
-    const banner = document.querySelector(".banner");
-
-    if (today == 5) {
-        banner.small.display = "block";
-
-    } else {
-        banner.small.display = "none";
-    }
+if (weekDay === 5) {
+   banner.classList.add('viewable');
 }
-bannerFriday();
-
