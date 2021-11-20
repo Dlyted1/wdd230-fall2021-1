@@ -5,12 +5,12 @@ fetch(apiURL)
   .then((jsObject) => {
     // console.log(jsObject);
 
-const time = jsObject.list.filter((element) => element.dt_txt.includes('18:00:00'));  // x represents what we are pulling from the array in the list or the array point
+const forecastData = jsObject.list.filter((element) => element.dt_txt.includes('18:00:00'));  // x represents what we are pulling from the array in the list or the array point
 // console.log(time);
 const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 let day = 0;
 
-time.forEach(forecast => {
+forecastData.forEach(forecast => {
   let x = new Date(forecast.dt_txt);
   //console.log(thedate);
   document.getElementById('dayofweek' + (day + 1)).textContent = weekdays[x.getDay()];
