@@ -28,7 +28,7 @@ document.getElementById('icon').setAttribute('alt', desc);
 // let imgsrc = `https://openweathermap.org.img/w/${jsObject.weather[0].icon}.png`;
 // let imgalt = jsObject.weather[0].description;
 
-// currentTemp.textContent = jsObject.main.temo.toFixed(0);
+// currentTemp.textContent = jsObject.main.temp.toFixed(0);
 // weathericon.setAttribute('src', imgsrc);
 // weathericon.setAttribute('alt', imgalt);
 
