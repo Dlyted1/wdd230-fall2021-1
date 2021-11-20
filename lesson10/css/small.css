@@ -170,11 +170,6 @@ img {            /* use for very large image scale to correct size */
    
 }
 
-.article {
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
 
 .grid { 
   display: grid;
@@ -201,7 +196,7 @@ img {            /* use for very large image scale to correct size */
 	padding: 5px;
 	border; 1px solid #333;
 	text-align: center;
-    font-weight: 700;
+  font-weight: 700;
 	font-size: 1rem;
 	background-color: #3c362a;
 	color: white;
@@ -218,13 +213,18 @@ img {            /* use for very large image scale to correct size */
 
 
 
-.sun1, .sun2, .sun3, .sun4, .sun5 {
+#icon1, #icon2, #icon33, #icon4, #icon5 {
         display: block;
         margin-left: auto;
         margin-right: auto;
         border-radius: 100px;
         padding: 0.25rem;
     }
+
+  .article {
+      padding-left: 20px;
+      padding-right: 20px;
+  }
 
 .article-img {
     float: right;
