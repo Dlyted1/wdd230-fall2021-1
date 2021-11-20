@@ -23,8 +23,8 @@
     font-weight: 500;
 }
 
-.viewable {
-  display: block;
+.noview {
+  display: none;
 }
 
 
