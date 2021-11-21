@@ -7,7 +7,7 @@ fetch(apiURL)
     
     document.querySelector("#currently").textContent = jsObject.weather[0].description;
     document.querySelector("#high").textContent = jsObject.main.temp.toFixed(0);
-    document.querySelector("#hummidity").textContent = jsObject.main.humidity;
+    document.querySelector("#humidity").textContent = jsObject.main.humidity;
     document.querySelector("#windspeed").textContent = jsObject.wind.speed.toFixed(0);
  
 
@@ -36,19 +36,19 @@ fetch(apiURL_forecast)
  // console.log(jsObject);
 
 const forecastData = jsObject.list.filter((element) => element.dt_txt.includes('18:00:00'));  // x represents what we are pulling from the array in the list or the array point
-
 const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 let day = 0;
 
 forecastData.forEach(forecast => {
   let x = new Date(forecast.dt_txt);
   //console.log(forecastData);
+
   document.getElementById('dayofweek' + (day + 1)).textContent = weekdays[x.getDay()];
   document.getElementById('forecast' + (day + 1)).textContent = Math.round(forecast.main.temp);
-  document.getElementById('img' + (day + 1)).src = "https://openweathermap.org/img/w" + forecast.weather[0].icon + ".png";
-  document.getElementById('img' + (day + 1)).alt = forecast.weather[0].description;
+  document.getElementById('icon' + (day + 1)).src = "https://openweathermap.org/img/w" + forecast.weather[0].icon + '.png';
+  document.getElementById('icon' + (day + 1)).alt = forecast.weather[0].description;
   day++;
-
+  
   });
 });
 
