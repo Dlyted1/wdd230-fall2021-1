@@ -9,7 +9,7 @@ fetch(apiURL)
     document.querySelector("#high").textContent = jsObject.main.temp.toFixed(0);
     document.querySelector("#hummidity").textContent = jsObject.main.humidity;
     document.querySelector("#windspeed").textContent = jsObject.wind.speed.toFixed(0);
-  });
+ 
 
 //windchill
 const temp = document.querySelector("#high").textContent;
@@ -32,11 +32,11 @@ let chill = "";
 const apiURL_forecast = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=86daac23ffd9b9bce45f9ec73da9e4e9";
 fetch(apiURL_forecast)
 .then((response) => response.json())
-  .then((jsObject) => {
-    // console.log(jsObject);
+.then((jsObject) => {
+ // console.log(jsObject);
 
 const forecastData = jsObject.list.filter((element) => element.dt_txt.includes('18:00:00'));  // x represents what we are pulling from the array in the list or the array point
-// console.log(time);
+
 const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 let day = 0;
 
