@@ -44,9 +44,9 @@ forecastData.forEach(forecast => {
   //console.log(forecastData);
 
   document.getElementById('dayofweek' + (day + 1)).textContent = weekdays[x.getDay()];
-  document.getElementById('forecast' + (day + 1)).textContent = Math.round(forecast.main.temp);
-  document.getElementById('img' + (day + 1)).src = "https://openweathermap.org/img/w" + forecast.weather[0].icon + '.png';
-  document.getElementById('img' + (day + 1)).alt = forecast.weather[0].description;
+  document.getElementById('forecast' + (day + 1)).textContent = Math.round(forecast.main.temp) + ' F';
+  document.getElementById('img' + (day + 1)).src = "https://openweathermap.org/img/wn/" + forecast.weather[0].icon + '.png';
+  document.getElementById('img' + (day + 1)).alt = forecast.weather[0].description
   day++;
   
   });
