@@ -209,14 +209,15 @@ img {            /* use for very large image scale to correct size */
 
 .data {
 	display: block;
-	padding: 0 5px 5px;
+	padding: 10px 5px 5px;
 	font-size: 0.8rem;
 	text-align: center;
+  
 }
 
 
 
-#icon1, #icon2, #icon33, #icon4, #icon5 {
+#img1, #img2, #img3, #img4, #img5 {
         display: block;
         margin-left: auto;
         margin-right: auto;
