@@ -228,7 +228,7 @@ img {            /* use for very large image scale to correct size */
     .eventBorder {
       max-width: 400px;
       align-content: center;
-      border: 2px solid #000000;
+      border: 1px solid #000000;
       background: #b8c4bb;
       margin: 15px auto;
       padding: 15px;
