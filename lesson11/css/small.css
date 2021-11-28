@@ -230,8 +230,8 @@ img {            /* use for very large image scale to correct size */
       align-content: center;
       border: 1px solid #000000;
       background: #b8c4bb;
-      margin: 15px auto;
-      padding: 15px;
+      margin: 20px auto;
+      padding: 25px;
       overflow: auto;
     }
     .eventArea {
