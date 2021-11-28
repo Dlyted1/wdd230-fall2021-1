@@ -58,7 +58,7 @@
         <fieldset>
             <legend style="font-size:16px;">Storm Information</legend>
             <label class="top">Storm Date <input type="date" name="date"></label><br>
-            
+        </fieldset>    
           <div>Storm Type</div>
           <form action="/action_page.php" method="get">
           <label class="storm" for="storm">Please select the type of storm:</label>
@@ -70,7 +70,7 @@
                   <option value="Thunderstorm">
                   <option value="Tornado">
               </datalist>
-          </form><br><br>
+          <br><br>
 
         <!-- rating slider -->
           <label class="flexy" for="rating" style="color: #663f46;">Storm Severity: &nbsp;&nbsp;&nbsp; <br>
@@ -94,14 +94,14 @@
 
        <!-- dropdown menu -->
           <label class="storm" style="color: #663f46;">Storm Region
-            <select name="subject">
-                <option style="color: #663f46;" value="">Select Region </option> <!-- &#9662; added here for small screens drop down arrow that disappeared-->
+            <select name="subject"><br>
+                <option style="color: #663f46;" value="">Select Region </option><br> <!-- &#9662; added here for small screens drop down arrow that disappeared-->
             <option value="preston">Preston</option>
             <option value="sodasprings">Soda Springs</option>
             <option value="fish">Fish Haven</option>
             </select>
         </label>
-
+        <br>
         <div>User in-danger level:</div>
             <!-- sbs is 'sise by side'-->
             <label class="sbs"><input type="radio" name="danger" value="yes">Yes</label>
@@ -115,7 +115,7 @@
         <input type="submit" value = "Send Storm Report" class="submitBtn">  
       </fieldset>
 
-  </form>
+ 
 
 
         <div class="contentbox">
