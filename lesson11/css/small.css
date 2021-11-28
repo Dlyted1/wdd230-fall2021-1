@@ -267,9 +267,10 @@ img {            /* use for very large image scale to correct size */
     float: right;
     margin-top: 15px;
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 5px;
     margin-bottom: 10px;
     padding: 5px;
+    box-shadow: 0 0 20px #999;
 }
 .map-responsive {
     overflow:hidden;
