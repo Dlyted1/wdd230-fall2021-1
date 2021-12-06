@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Estonia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+body {
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-family: "Estonia", cursive;
+  font-size: 38px;
+}
+
+h3,
+h4 {
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  background-color: white;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 {
+  font-size: 60px;
+}
+
+main {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+nav {
+  background-color: #c3171d;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+
+nav button {
+  margin: 0.2rem 2%;
+  background-color: transparent;
+  border: none;
+  font-size: 1.6rem;
+  color: #c9d6ea;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+nav ul li a {
+  display: block;
+  text-align: center;
+  padding: 0.8rem 2%;
+  text-decoration: none;
+  color: #c9d6ea;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+nav ul li.active a {
+  background-color: rgba(184, 196, 187, 0.2);
+  color: #c9d6ea;
+}
+
+nav ul li a:hover {
+  background-color: rgba(184, 196, 187, 0.4);
+}
+
+nav ul.hide {
+  display: none;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

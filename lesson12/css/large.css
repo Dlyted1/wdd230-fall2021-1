@@ -1,0 +1,36 @@
+@media only screen and (min-width: 950px) {
+  header img {
+    width: 100%;
+  }
+  nav {
+    background: #3c362a;
+    width: 100%;
+    overflow: auto;
+  }
+
+  nav button {
+    display: none;
+  }
+
+  nav ul.hide {
+    display: block;
+  }
+
+  nav ul {
+    margin-left: 2%;
+  }
+
+  nav ul li {
+    float: left;
+  }
+
+  nav ul li a {
+    border: none;
+    border-right: 1px solid rgba(01, 01, 01, 0.03);
+    padding: 0.6rem 1.7rem;
+  }
+
+  main {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
