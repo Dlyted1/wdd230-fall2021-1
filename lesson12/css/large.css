@@ -3,7 +3,7 @@
     width: 100%;
   }
   nav {
-    background: #3c362a;
+    background: #c3171d;
     width: 100%;
     overflow: auto;
   }
@@ -13,7 +13,7 @@
   }
 
   nav ul.hide {
-    display: block;
+    display: flex;
   }
 
   nav ul {
@@ -21,7 +21,7 @@
   }
 
   nav ul li {
-    float: left;
+    flex: 1 1 100%;
   }
 
   nav ul li a {
