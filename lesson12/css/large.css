@@ -2,14 +2,19 @@
   header img {
     width: 100%;
   }
+
+  header h1 {
+    font-size: 85px;
+  }
   nav {
-    background: #c3171d;
+    background-color: #c3171d;
     width: 100%;
     overflow: auto;
   }
 
   nav button {
     display: none;
+    
   }
 
   nav ul.hide {
