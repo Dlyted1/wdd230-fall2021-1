@@ -91,6 +91,47 @@ nav ul.hide {
   display: table;
   clear: both;
 }
+img {            /* use for very large image scale to correct size */
+  max-width: 100%;
+  max-height: 100%;
+  display: flex; /* use display block to remove extra space below image */
+}
+
+/*the  parent container*/
+.herodiv {
+  margin: 10px auto;
+  position: relative;
+  
+}
+   
+/*the child of .herodiv*/
+.weathersummary {
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  position:absolute
+  margin-left: 5%;
+  top: 30px;
+  left: 50px;
+  background: radial-gradient(#eee, #DA9985);
+  border: 3px solid #3c362a;
+  padding: 1rem;
+  box-shadow: 0 0 50px rgb(55, 56, 58);
+  opacity: .6;
+
+}
+
+
+.label {
+  grid-column: 1;
+  line-height: 50%;
+  
+}
+
+.value {
+  grid-column: 2;
+  line-height: 50%;
+ 
+}
 
 .contentbox {
   display: block;
@@ -139,7 +180,8 @@ nav ul.hide {
 footer {
 margin: 0 auto;
 text-align: center;
-background-color: #c9d6ea;
+background-color: #c3171d;
+color: #ffc30d;
 padding-top: 20px;
 height: 6em;
 }
