@@ -44,11 +44,11 @@ main {
 }
 
 nav button {
-  margin: 0;
+  margin-right: 90%;
   background-color: transparent;
   border: none;
   font-size: 2rem;
-  color: black;
+  color: #ffc30d;
 }
 
 nav {
@@ -113,7 +113,7 @@ img {            /* use for very large image scale to correct size */
   top: 30px;
   left: 50px;
   background: radial-gradient(#eee, #DA9985);
-  border: 3px solid #3c362a;
+  border: 3px solid black;
   padding: 1rem;
   box-shadow: 0 0 50px rgb(55, 56, 58);
   opacity: .6;
