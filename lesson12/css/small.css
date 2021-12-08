@@ -18,7 +18,7 @@ body {
 h1,
 h2 {
   font-family: "Estonia", cursive;
-  font-size: 38px;
+  font-size: 40px;
 }
 
 h3,
@@ -99,7 +99,7 @@ img {            /* use for very large image scale to correct size */
 
 /*the  parent container*/
 .herodiv {
-  margin: 10px auto;
+  margin: 0 auto;
   position: relative;
   
 }
@@ -110,11 +110,9 @@ img {            /* use for very large image scale to correct size */
   grid-template-columns: repeat(2, 1fr);
   position:absolute
   margin-left: 5%;
-  top: 30px;
-  left: 50px;
   background: radial-gradient(#eee, #DA9985);
   border: 3px solid black;
-  padding: 1rem;
+  padding: 10px;
   box-shadow: 0 0 50px rgb(55, 56, 58);
   opacity: .6;
 
@@ -123,18 +121,24 @@ img {            /* use for very large image scale to correct size */
 
 .label {
   grid-column: 1;
-  line-height: 50%;
+  line-height: 30%;
   
 }
 
 .value {
   grid-column: 2;
-  line-height: 50%;
+  line-height: 30%;
  
 }
 #currently {
   text-transform: capitalize;
 }
+
+.eventBorder {
+  border: 1px solid #000000;
+  padding-left: 10px;
+}
+
 
 .contentbox {
   display: block;
