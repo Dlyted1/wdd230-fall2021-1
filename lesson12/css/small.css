@@ -132,6 +132,9 @@ img {            /* use for very large image scale to correct size */
   line-height: 50%;
  
 }
+#currently {
+  text-transform: capitalize;
+}
 
 .contentbox {
   display: block;
