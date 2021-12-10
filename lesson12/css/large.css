@@ -40,6 +40,18 @@
     margin-right: 20px;
   }
 
+  .locals {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+  }
+  
+  figure img { 
+    width: 500px; 
+    height: auto; 
+    
+  }
+
   .contentbox {
     display: grid;
     grid-template-columns: 1fr 1fr;  
