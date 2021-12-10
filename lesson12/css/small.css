@@ -9,7 +9,7 @@
 }
 
 body {
-  font-size: 14px;
+  font-size: 16px;
   font-family: "Lato", sans-serif;
   padding: 0;
   margin: 0;
@@ -107,26 +107,29 @@ img {            /* use for very large image scale to correct size */
   position: relative;
   
 }
-   
+.welcome {
+  border: 1px solid #003561;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 20px 10px;
+}   
 /*the child of .herodiv*/
 .weathersummary {
   display:grid;
   grid-template-columns: repeat(2, 1fr);
-  position:absolute
-  margin-left: 5%;
-  
+  margin: 20px 10px;
   border: 2px solid #003561;
   padding: 10px;
   box-shadow: 0 0 50px rgb(55, 56, 58);
   background: hsla(17, 100%, 53%, 1);
 
-background: linear-gradient(90deg, hsla(17, 100%, 53%, 0.2) 2%, hsla(196, 68%, 38%, 0.1) 90%);
+  background: linear-gradient(90deg, hsla(17, 100%, 53%, 0.2) 2%, hsla(196, 68%, 38%, 0.1) 90%);
 
-background: -moz-linear-gradient(90deg, hsla(17, 100%, 53%, 0.2) 2%, hsla(196, 68%, 38%, 0.1) 90%);
+  background: -moz-linear-gradient(90deg, hsla(17, 100%, 53%, 0.2) 2%, hsla(196, 68%, 38%, 0.1) 90%);
 
-background: -webkit-linear-gradient(90deg, hsla(17, 100%, 53%, 0.2) 2%, hsla(196, 68%, 38%, 0.1) 90%);
+  background: -webkit-linear-gradient(90deg, hsla(17, 100%, 53%, 0.2) 2%, hsla(196, 68%, 38%, 0.1) 90%);
 
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF510D", endColorstr="#1F7EA1", GradientType=1 );
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF510D", endColorstr="#1F7EA1", GradientType=1 );
 }
 
 
@@ -239,11 +242,11 @@ height: 6em;
   background-color: #003561; /* Green */
   border: none;
   color: #ffc30d;
-  padding: 20px 32px;
+  padding: 20px 20px;
   text-align: center;
   text-decoration: none;
-  font-size: 16px;
-  margin: 4px 4px;
+  font-size: 20px;
+  margin: 5px 5px;
   transition-duration: 0.4s;
   cursor: pointer;
 }

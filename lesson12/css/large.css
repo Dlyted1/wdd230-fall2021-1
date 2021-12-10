@@ -44,6 +44,16 @@
     margin-right: 20px;
   }
 
+  .about {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+
+  }
+  .weathersummary {
+    display:grid;
+    grid-template-columns: auto auto;
+
   .locals {
     display: grid;
     grid-template-columns: 1fr 1fr;
