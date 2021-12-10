@@ -443,25 +443,7 @@ figcaption {
       border-left: green solid 6px;
   }
 
-  .button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #3c362a; /* Green */
-    border: none;
-    color: white;
-    padding: 20px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    margin: 4px 4px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-  }
   
-  .button:hover {
-    background-color: #b40f0f;
-    color:beige;
 
 @media only screen and (max-width: 480px) {
     header img {
