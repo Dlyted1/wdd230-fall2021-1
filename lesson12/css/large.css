@@ -59,6 +59,8 @@
     grid-template-columns: 1fr 1fr;
     
   }
+
+ 
   
   figure img { 
     width: 500px; 
@@ -93,3 +95,4 @@
     margin: 0 5px;
     margin-bottom: 10px;
   } 
+}
