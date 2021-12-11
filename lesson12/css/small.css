@@ -109,6 +109,7 @@ img {            /* use for very large image scale to correct size */
 }
 .welcome {
   border: 1px solid #003561;
+  box-shadow: 0 0 50px rgb(55, 56, 58);
   padding-left: 10px;
   padding-right: 10px;
   margin: 20px 10px;
@@ -119,7 +120,8 @@ img {            /* use for very large image scale to correct size */
   grid-template-columns: repeat(2, 1fr);
   margin: 20px 10px;
   border: 2px solid #003561;
-  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   box-shadow: 0 0 50px rgb(55, 56, 58);
   background: hsla(17, 100%, 53%, 1);
 
@@ -152,11 +154,13 @@ img {            /* use for very large image scale to correct size */
   border: 1px solid #003561;
   padding-left: 10px;
   margin: 20px 10px;
+  box-shadow: 0 0 50px rgb(55, 56, 58);
 }
 
 .local {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  
   
 }
 
