@@ -10,6 +10,9 @@
     font-size: 60px;
   }
 
+  .hero-ph {
+    width: 2000px;
+  }
   nav {
     background-color: #c3171d;
     width: 100%;

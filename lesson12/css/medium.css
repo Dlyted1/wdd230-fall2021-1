@@ -8,7 +8,73 @@
   h2 {
     font-size: 45px;
   }
+  #artcontainer{
+    width: 400px;
+    
+}
+  .article2 {
+    padding-top: 50px;
+  }
+  .article3 {
+    padding-bottom: 50px;
+  }
+  .article-img2 {
+    float: right;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-bottom: 25px;
+    padding: 5px;
+    box-shadow: 0 0 20px #999;
+  }
 
+  
+  .article-img3 {
+    float: left;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    padding: 5px;
+    box-shadow: 0 0 20px #999;
+  }
+  
+
+  .article4 {
+    padding-top: 20%;
+    margin-left: 20%;
+
+  }
+
+  .article-img4 {
+    float: right;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-bottom: 25px;
+    padding: 5px;
+    box-shadow: 0 0 20px #999;
+  }
+  .article-img5 {
+    float: left;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-bottom: 25px;
+    padding: 5px;
+    box-shadow: 0 0 20px #999;
+  }
+  .article-img6,
+  .article-img7 {
+    float: right;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-bottom: 25px;
+    padding: 5px;
+    box-shadow: 0 0 20px #999;
+  }
+  
 .local {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
