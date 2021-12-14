@@ -203,6 +203,9 @@ figure img {
   
 }
 
+
+
+
 .contentbox {
   display: block;
   margin: 10px auto;
@@ -355,6 +358,14 @@ form label.top input:required {
 /* color will change when passed test */
 form label.top input:required:valid {
     border-left: green solid 6px;
+}
+
+.directors {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem 2%;
+  
 }
 
 @media only screen and (max-width: 599px) {
