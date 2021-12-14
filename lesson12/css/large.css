@@ -91,4 +91,8 @@
     margin: 0 5px;
     margin-bottom: 10px;
   }
+
+  form fieldset {
+    margin: 3rem 10rem;
+  }
 }

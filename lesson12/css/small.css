@@ -283,7 +283,7 @@ form fieldset {
   padding: 0.5rem 2%;
 }
 
-form legand {
+form legend {
   font-size: 18px;
   font-weight: bold;
   margin: 0 1rem;
@@ -332,9 +332,13 @@ form label top.select {
     padding: .75rem .75rem;
     margin: 0 auto;
     width: 96%; /* for smaller screens */
-    max-width: 20rem; /* for larger screens */
-    
+    max-width: 20rem; /* for larger screens */   
 }
+
+.submitBtn:hover {
+  color: white;
+}
+
 #comments {
   display: flex;
   width: 100%;
