@@ -360,12 +360,10 @@ form label.top input:required:valid {
     border-left: green solid 6px;
 }
 
-.directors {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.8rem 2%;
-  
+.dir-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 50px;
 }
 
 @media only screen and (max-width: 599px) {
