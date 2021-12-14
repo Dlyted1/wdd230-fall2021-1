@@ -274,6 +274,85 @@ height: 6em;
 
 .button:hover {
     color: white;
+}
+
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid black;
+  box-shadow: 2px 10px 12px 0 #003561;; 
+  padding: 0.5rem 2%;
+}
+
+form legand {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 1rem;
+  padding: 0 0.5rem;
+}
+
+form label.top,
+form div {
+  display: block;
+  padding-top: 1rem;
+  color: #003561;
+  font-size: 15px;
+  }
+
+form label.top input,
+form label top.select {
+/* webkit added for chrome & Safari since not following rules here and this will override the default appearance */
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #999;
+  border-radius: 4px; /* to make edges on input box rounded */
+  padding: 0.75rem; /* applied  for the min height requirement of 44px */
+  color: #555;
+  width: 100%; /* for smaller screens */
+  /* max-width: 20rem; /* for larger screens */
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.memlevel {
+  font-size: 20px;
+}
+.sbs {
+    display: block; /* so they stack on top of one another */
+    padding: .50rem 0; /* applied to top and bottom for the min height requirement of 44px */
+    color: #003561;
+    
+}
+
+.submitBtn {
+    display: flex;
+    justify-content: center;
+    border: none;
+    background-color: #003561;
+    color: #c9d6ea;
+    padding: .75rem .75rem;
+    margin: 0 auto;
+    width: 96%; /* for smaller screens */
+    max-width: 20rem; /* for larger screens */
+    
+}
+#comments {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  margin: 10px 30px 20px 0;
+}
+
+
+form label.top input:required {
+    border-left: #003561 solid 6px;
+}
+
+  
+/* color will change when passed test */
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
 @media only screen and (max-width: 599px) {
   header img {
       width: 100%;
