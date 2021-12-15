@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Estonia&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
-
 * {
   box-sizing: border-box;
   padding: 0;
@@ -14,7 +13,6 @@ body {
   padding: 0;
   margin: 0;
   color: #003561;
- 
 }
 
 h1,
@@ -29,7 +27,6 @@ h4 {
 }
 
 header {
-  
   padding: 5px 0;
   display: flex;
   align-items: center;
@@ -94,18 +91,17 @@ nav ul.hide {
   clear: both;
 }
 
-img {            /* use for very large image scale to correct size */
+img {
+  /* use for very large image scale to correct size */
   max-width: 100%;
   max-height: 100%;
   display: flex; /* use display block to remove extra space below image */
 }
 
-
 /*the  parent container*/
 .herodiv {
   margin: 0 auto;
   position: relative;
-  
 }
 .welcome {
   border: 1px solid #003561;
@@ -113,10 +109,10 @@ img {            /* use for very large image scale to correct size */
   padding-left: 10px;
   padding-right: 10px;
   margin: 20px 10px;
-}   
+}
 /*the child of .herodiv*/
 .weathersummary {
-  display:grid;
+  display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin: 20px 10px;
   border: 1px solid #003561;
@@ -125,26 +121,35 @@ img {            /* use for very large image scale to correct size */
   box-shadow: 0 0 50px rgb(55, 56, 58);
   background: hsla(17, 100%, 53%, 1);
 
-  background: linear-gradient(90deg, hsla(17, 100%, 53%, 0.2) 2%, hsla(196, 68%, 38%, 0.1) 90%);
+  background: linear-gradient(
+    90deg,
+    hsla(17, 100%, 53%, 0.2) 2%,
+    hsla(196, 68%, 38%, 0.1) 90%
+  );
 
-  background: -moz-linear-gradient(90deg, hsla(17, 100%, 53%, 0.2) 2%, hsla(196, 68%, 38%, 0.1) 90%);
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(17, 100%, 53%, 0.2) 2%,
+    hsla(196, 68%, 38%, 0.1) 90%
+  );
 
-  background: -webkit-linear-gradient(90deg, hsla(17, 100%, 53%, 0.2) 2%, hsla(196, 68%, 38%, 0.1) 90%);
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(17, 100%, 53%, 0.2) 2%,
+    hsla(196, 68%, 38%, 0.1) 90%
+  );
 
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF510D", endColorstr="#1F7EA1", GradientType=1 );
 }
 
-
 .label {
   grid-column: 1;
   line-height: 30%;
-  
 }
 
 .value {
   grid-column: 2;
   line-height: 30%;
- 
 }
 #currently {
   text-transform: capitalize;
@@ -173,8 +178,6 @@ img {            /* use for very large image scale to correct size */
 .local {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  
-  
 }
 .deals {
   text-align: center;
@@ -189,18 +192,28 @@ figure {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 
-figure img { 
-  width: 500px; 
-  height: auto; 
+figure img {
+  width: 500px;
+  height: auto;
   margin: 0;
   border: 1px solid #ccc;
   box-shadow: 5px 5px 5px #999;
-  
+}
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
 }
 
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 .contentbox {
   display: block;
@@ -210,49 +223,46 @@ figure img {
 }
 
 .map-responsive {
-  overflow:hidden;
-  padding-bottom:56.25%;
-  position:relative;
-  height:0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
 }
 
-.map-responsive iframe{
-  left:0;
-  top:0;
+.map-responsive iframe {
+  left: 0;
+  top: 0;
   margin-top: 15px;
-  height:80%;
-  width:100%;
-  position:absolute;
+  height: 80%;
+  width: 100%;
+  position: absolute;
   box-shadow: 0 0 50px rgb(55, 56, 58);
-
 }
 
 .contact {
   position: relative;
-  text-align: center;  
+  text-align: center;
 }
 
-
-.social {      
- display: flex;
- align-items: center;
- justify-content: center; 
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .social-icon {
-  display: inline-block; 
+  display: inline-block;
   margin: 0 5px;
   margin-bottom: 10px;
 }
 
-
 footer {
-margin: 0 auto;
-text-align: center;
-background-color: #b40f0f;
-color: #ffc30d;
-padding-top: 20px;
-height: 6em;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #b40f0f;
+  color: #ffc30d;
+  padding-top: 20px;
+  height: 6em;
 }
 
 .button {
@@ -272,13 +282,13 @@ height: 6em;
 }
 
 .button:hover {
-    color: white;
+  color: white;
 }
 
 form fieldset {
   margin: 2rem 0;
   border: 1px solid black;
-  box-shadow: 2px 10px 12px 0 #003561;; 
+  box-shadow: 2px 10px 12px 0 #003561;
   padding: 0.5rem 2%;
 }
 
@@ -295,11 +305,11 @@ form div {
   padding-top: 1rem;
   color: #003561;
   font-size: 15px;
-  }
+}
 
 form label.top input,
 form label top.select {
-/* webkit added for chrome & Safari since not following rules here and this will override the default appearance */
+  /* webkit added for chrome & Safari since not following rules here and this will override the default appearance */
   -webkit-appearance: none;
   display: block;
   font-size: 1rem;
@@ -316,22 +326,21 @@ form label top.select {
   font-size: 20px;
 }
 .sbs {
-    display: block; /* so they stack on top of one another */
-    padding: .50rem 0; /* applied to top and bottom for the min height requirement of 44px */
-    color: #003561;
-    
+  display: block; /* so they stack on top of one another */
+  padding: 0.5rem 0; /* applied to top and bottom for the min height requirement of 44px */
+  color: #003561;
 }
 
 .submitBtn {
-    display: flex;
-    justify-content: center;
-    border: none;
-    background-color: #003561;
-    color: #ffc30d;
-    padding: .75rem .75rem;
-    margin: 0 auto;
-    width: 96%; /* for smaller screens */
-    max-width: 20rem; /* for larger screens */   
+  display: flex;
+  justify-content: center;
+  border: none;
+  background-color: #003561;
+  color: #ffc30d;
+  padding: 0.75rem 0.75rem;
+  margin: 0 auto;
+  width: 96%; /* for smaller screens */
+  max-width: 20rem; /* for larger screens */
 }
 
 .submitBtn:hover {
@@ -345,20 +354,17 @@ form label top.select {
   margin: 10px 30px 20px 0;
 }
 
-
 form label.top input:required {
-    border-left: #003561 solid 6px;
+  border-left: #003561 solid 6px;
 }
 
-  
 /* color will change when passed test */
 form label.top input:required:valid {
-    border-left: green solid 6px;
+  border-left: green solid 6px;
 }
-
-
 
 @media only screen and (max-width: 599px) {
   header img {
-      width: 100%;
+    width: 100%;
   }
+}
