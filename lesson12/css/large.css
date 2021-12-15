@@ -95,4 +95,7 @@
   form fieldset {
     margin: 3rem 10rem;
   }
+  div.cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
