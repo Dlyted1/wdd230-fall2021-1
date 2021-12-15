@@ -15,7 +15,7 @@ fetch(requestURL)
     let image = document.createElement("img");
     let url = document.createElement("a");
 
-    h3.textContent = `${directory[i].name} ${directory[i].lastname}`;
+    h3.textContent = `${directory[i].name}`;
     address.textContent = `${directory[i].address}`;
     phone.textContent = `${directory[i].phone}`;
     image.setAttribute("src", directory[i].imageurl);
