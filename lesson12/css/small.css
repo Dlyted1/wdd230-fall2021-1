@@ -175,6 +175,16 @@ img {
   box-shadow: 0 0 20px #999;
 }
 
+.article-img3,
+.article-img4,
+.article-img5,
+.article-img6,
+.article-img7,
+.article-img8 {
+  padding: 5px;
+  box-shadow: 0 0 20px #999;
+}
+
 .local {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));

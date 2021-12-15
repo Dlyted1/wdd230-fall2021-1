@@ -45,36 +45,36 @@
     margin-left: 20%;
 
   }
-
+  .article5 {
+    padding-top: 40%;
+    margin-left: 20%;
+  }
+   
+  }
   .article-img4 {
     float: right;
     margin-top: 25px;
-    margin-left: 10px;
-    margin-right: 5px;
-    margin-bottom: 25px;
-    padding: 5px;Non-Profit
-    box-shadow: 0 0 20px #999;
-  }
-  .article-img5 {
-    float: left;
-    margin-top: 25px;
-    margin-left: 10px;
-    margin-right: 5px;
-    margin-bottom: 25px;
-    padding: 5px;
-    box-shadow: 0 0 20px #999;
-  }
-  .article-img6,
-  .article-img7 {
-    float: right;
-    margin-top: 25px;
-    margin-left: 10px;
+    margin-left: 25px;
     margin-right: 5px;
     margin-bottom: 25px;
     padding: 5px;
     box-shadow: 0 0 20px #999;
   }
   
+  .article-img6 {
+    
+    margin-top: 35px;
+    
+    padding: 5px;
+    box-shadow: 0 0 20px #999;
+  }
+
+  .article7 {
+    margin-left: 60%;
+  }
+ 
+  
+
 .local {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
