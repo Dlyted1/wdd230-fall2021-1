@@ -2,108 +2,66 @@
   "directory": [
     {
       "name": "Sebring Raceway",
-      "address": {
-        "streetAddress": "113 Midway Dr",
-        "city": "Sebring",
-        "state": "FL",
-        "postalCode": "33870"
-    },
+      "address": "113 Midway Dr",
       "phone": 8636551442,
       "url": "https://www.sebringraceway.com/",
       "imageurl": "https://dlyted1.github.io/wdd230-fall2021-1/lesson12/images12/sebring-logo.png"
     },  
     {
       "name": "Robbins Nursery",
-      "address": {
-        "streetAddress": "4803 US Highway 27 S",
-        "city": "Sebring",
-        "state": "FL",
-        "postalCode": "33870"
-    },
+      "address": "4803 US Highway 27 S",
       "phone": 8633851111,
       "url": "https://robbins-nursery-639611.shoplightspeed.com/",
       "imageurl": "https://dlyted1.github.io/wdd230-fall2021-1/lesson12/images12/robbin-logo.jpg"
     },
     {
       "name": "Seven Sebring Hotel",
-      "address": {
-        "streetAddress": "150 Midway Drive",
-        "city": "Sebring",
-        "state": "FL",
-        "postalCode": "33870"
-    },
+      "address": "150 Midway Drive",
+      "city": "Sebring",
+      "state": "FL",
+     "postalCode": "33870",
       "phone": 8636557200,
       "url": "https://sevensebringhotel.com/",
       "imageurl": "https://dlyted1.github.io/wdd230-fall2021-1/lesson12/images12/seven-logo.png"
     },
     {
       "name": "Advent Health",
-      "address": {
-        "streetAddress": "4200 Sun'n Lake Blvd",
-        "city": "Sebring",
-        "state": "FL",
-        "postalCode": "33872"
-    },
+      "address":"4200 Sun'n Lake Blvd",
       "phone": 8633144466,
       "url": "https://www.adventhealth.com/",
       "imageurl": "https://dlyted1.github.io/wdd230-fall2021-1/lesson12/images12/advent-logo.jpg"
     },
     {
       "name": "Stewarts Mobile Village",
-      "address": {
-        "streetAddress": "1116 US Hwy 27 South",
-        "city": "Avon Park",
-        "state": "FL",
-        "postalCode": "33825"
-    },
+      "address": "1116 US Hwy 27 South",      
       "phone": 8634533849,
       "url": "https://www.stewartsmobilevillage.com/",
       "imageurl": "https://dlyted1.github.io/wdd230-fall2021-1/lesson12/images12/rv-logo.png"
     },
     {
       "name": "Highlands County Citrus Growers",
-      "address": {
-        "streetAddress": "6419 US South",
-        "city": "Sebring",
-        "state": "FL",
-        "postalCode": "33876"
-    },
+      "address": "6419 US South",       
       "phone": 8633858091,
       "url": "https://www.hccga.com/",
       "imageurl": "https://dlyted1.github.io/wdd230-fall2021-1/lesson12/images12/HCCGA-logo.png"
     },
     {
       "name": "WWOJ",
-      "address": {
-        "streetAddress": "3750 US Highway 27 N",
-        "city": "Sebring",
-        "state": "FL",
-        "postalCode": "33870"
-    },
+      "address": "3750 US Highway 27 N",        
       "phone": 8633829999,
       "url": "https://oj991.com/",
       "imageurl": "https://dlyted1.github.io/wdd230-fall2021-1/lesson12/images12/oj-logo.jpg"
     },
     {
       "name": "Tropical Obsession Tanning Salon",
-      "address": {
-        "streetAddress": "3750 US Hwy 27 N",
-        "city": "Sebring",
-        "state": "FL",
-        "postalCode": "33870"
-    },
+      "address": "3750 US Hwy 27 N",    
       "phone": 8634515208,
       "url": "https://www.facebook.com/tropicalobsessiontan",
       "imageurl": "https://dlyted1.github.io/wdd230-fall2021-1/lesson12/images12/tan-logo.jpg"
     },
     {
       "name": "Alan Jay Automotive Network",
-      "address": {
-        "streetAddress": "401 US Hwy 27 N",
-        "city": "Sebring",
-        "state": "FL",
-        "postalCode": "33870"
-    },
+      "address": "401 US Hwy 27 N",
       "phone": 8633145300,
       "url": "https://www.alanjay.com/used-inventory/index.htm",
       "imageurl": "https://dlyted1.github.io/wdd230-fall2021-1/lesson12/images12/alanjay.jpg"
