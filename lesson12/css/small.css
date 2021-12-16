@@ -162,7 +162,10 @@ img {
   margin: 20px 10px;
   box-shadow: 0 0 50px rgb(55, 56, 58);
 }
-.article {
+.article,
+.article5,
+.article7,
+.article8 {
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -184,6 +187,13 @@ img {
 .article-img8 {
   padding: 5px;
   box-shadow: 0 0 20px #999;
+}
+
+.article-img1,
+.article-img3,
+.article-img6 {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .local {
