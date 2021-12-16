@@ -64,16 +64,10 @@
   .article-img6 {
     
     margin-top: 35px;
-    
     padding: 5px;
     box-shadow: 0 0 20px #999;
   }
-
-  .article7 {
-    margin-left: 60%;
-  }
  
-  
 
 .local {
   display: grid;
@@ -91,7 +85,11 @@ figure img {
   
 }
 div.cards {
-  grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #ffc30d;
+  grid-gap: 10px;
+  padding: 5px;
 }
 }
 
