@@ -115,10 +115,10 @@ img {
 .weathersummary {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin: 20px 10px;
+
   border: 1px solid #003561;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 10px;
+
   box-shadow: 0 0 50px rgb(55, 56, 58);
   background: hsla(17, 100%, 53%, 1);
 
@@ -143,14 +143,16 @@ img {
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF510D", endColorstr="#1F7EA1", GradientType=1 );
 }
 
-.label {
+p.label {
   grid-column: 1;
   line-height: 30%;
+  margin-right: 10px;
 }
 
-.value {
+p.value {
   grid-column: 2;
   line-height: 30%;
+  margin-right: 10px;
 }
 #currently {
   text-transform: capitalize;
@@ -397,7 +399,7 @@ div section {
   padding: 5px;
   background-color: white;
   text-align: center;
-  max-width: 90%;
+
   border: 2px solid black;
   box-shadow: 8px 8px 8px #999;
   margin-left: 20px;
