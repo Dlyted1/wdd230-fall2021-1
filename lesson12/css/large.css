@@ -80,6 +80,10 @@
     column-gap: 1em;
   }
 
+  .name {
+    margin-bottom: 25px;
+  }
+
   .social {
     display: flex;
     align-items: center;
