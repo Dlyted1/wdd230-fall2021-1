@@ -178,7 +178,9 @@ p.value {
   display: grid;
   justify-items: center;
   align-items: center;
-  margin: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 20px;
   padding: 5px;
   box-shadow: 0 0 20px #999;
 }
